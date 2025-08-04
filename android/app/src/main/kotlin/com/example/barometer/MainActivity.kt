@@ -1,4 +1,4 @@
-package com.example.barometer
+package com.example.sensor_tools
 
 import io.flutter.embedding.android.FlutterActivity
 

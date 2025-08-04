@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:barometer/barometer_screen.dart';
-import 'package:barometer/compass_screen.dart';
-import 'package:barometer/metal_detector_screen.dart';
+import 'package:sensor_tools/barometer_screen.dart';
+import 'package:sensor_tools/compass_screen.dart';
+import 'package:sensor_tools/metal_detector_screen.dart';
 
 void main() => runApp(const BarometerApp());
 
@@ -29,7 +29,7 @@ class _BarometerAppState extends State<BarometerApp> {
             MediaQuery.of(context).platformBrightness == Brightness.dark);
 
     return MaterialApp(
-      title: 'Barometer Demo',
+      title: 'Sensor Tools',
       themeMode: _themeMode,
       theme: ThemeData(
         primarySwatch: Colors.blue,
@@ -100,7 +100,10 @@ class _MainScreenState extends State<MainScreen> {
       body: Center(child: _screens[_selectedIndex]),
       bottomNavigationBar: BottomNavigationBar(
         items: const <BottomNavigationBarItem>[
-          BottomNavigationBarItem(icon: Icon(Icons.speed), label: 'Barometer'),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.speed),
+            label: 'Sensor Tools',
+          ),
           BottomNavigationBarItem(
             icon: Icon(Icons.navigation),
             label: 'Compass',

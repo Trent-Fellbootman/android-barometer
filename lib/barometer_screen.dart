@@ -39,7 +39,7 @@ class _BarometerScreenState extends State<BarometerScreen> {
             }
           },
           onError: (e) {
-            debugPrint("Barometer error: $e");
+            debugPrint("Sensor Tools error: $e");
           },
         );
   }

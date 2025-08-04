@@ -1,4 +1,4 @@
-# barometer
+# sensor_tools
 
 A new Flutter project.
 

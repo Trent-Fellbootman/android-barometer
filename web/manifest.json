@@ -1,6 +1,6 @@
 {
-    "name": "barometer",
-    "short_name": "barometer",
+    "name": "sensor_tools",
+    "short_name": "sensor_tools",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

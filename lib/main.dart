@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:barometer/barometer_screen.dart';
 import 'package:barometer/compass_screen.dart';
+import 'package:barometer/metal_detector_screen.dart';
 
 void main() => runApp(const BarometerApp());
 
@@ -71,7 +72,7 @@ class _MainScreenState extends State<MainScreen> {
     _screens = [
       const BarometerScreen(),
       const CompassScreen(),
-      const Center(child: Text('Gyroscope Screen (Coming Soon)')),
+      const MetalDetectorScreen(),
     ];
   }
 
@@ -105,8 +106,8 @@ class _MainScreenState extends State<MainScreen> {
             label: 'Compass',
           ),
           BottomNavigationBarItem(
-            icon: Icon(Icons.rotate_right),
-            label: 'Gyroscope',
+            icon: Icon(Icons.router),
+            label: 'Metal Detector',
           ),
         ],
         currentIndex: _selectedIndex,

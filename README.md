@@ -1,16 +1,21 @@
-# sensor_tools
+# Android Sensor Tools
 
-A new Flutter project.
+A simple, ad-free app for getting sensor readings on android, built with Flutter.
 
-## Getting Started
+## Features
 
-This project is a starting point for a Flutter application.
+- Barometer (and altitude estimation based on pressure readings).
+- Compass (and magnetometer readings display). Magnetic declination is not accounted for.
+- Metal detector.
 
-A few resources to get you started if this is your first Flutter project:
+## Required Sensors
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- Barometer
+- Magnetometer
+- Accelerometer
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Screenshots
+
+Barometer | Compass | Metal Detector
+:-------------------------:|:-------------------------:|:-------------------------:
+![barometer](media/barometer.jpg) | ![compass](media/compass.jpg) | ![metal detector](media/metal-detector.jpg)

@@ -162,7 +162,7 @@ class _MetalDetectorScreenState extends State<MetalDetectorScreen> {
             height: 200,
             decoration: BoxDecoration(
               shape: BoxShape.circle,
-              color: detectionColor.withOpacity(0.2),
+              color: detectionColor.withValues(alpha: 0.2),
               border: Border.all(color: detectionColor, width: 4),
             ),
             child: Center(

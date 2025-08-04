@@ -54,7 +54,7 @@ class _BarometerScreenState extends State<BarometerScreen> {
   Widget build(BuildContext context) {
     final pressureText = _pressure == null
         ? 'Waiting for sensor...'
-        : '${_pressure!.toStringAsFixed(2)} hPa';
+        : 'Pressure: ${_pressure!.toStringAsFixed(2)} hPa';
 
     final altitudeText = _altitude == null
         ? ''
